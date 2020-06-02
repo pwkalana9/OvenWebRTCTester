@@ -22,8 +22,8 @@ We will support the following platforms in the future:
   ### Build
   You can build source with the following command
   ```
-  $ git clone "https://github.com/AirenSoft/Ome-Stream-Tester.git"
-  $ cd Ome-Stream-Tester
+  $ git clone "https://github.com/AirenSoft/OvenWebRTCTester.git"
+  $ cd OvenWebRTCTester
   $ make && make install
   $ cd bin
   ```
@@ -32,15 +32,17 @@ We will support the following platforms in the future:
   ```
   $ cd [SOURCE_PATH]/bin
 
-  [Edit stream_tester.conf File]
+  [Edit OvenWebRTCTester.conf File]
   ex)
-  signalling_address                      192.168.0.230
+  signalling_address                      192.168.0.160
   signalling_port                         3333
   signalling_app                          app
-  signalling_stream                       abc_o
+  signalling_stream                       stream_o
   streaming_start_count                   10
-  streaming_create_interval               10
-  streaming_create_count                  10
-  streaming_max_count                     5000
+  streaming_create_interval               5
+  streaming_create_count                  50
+  streaming_max_count                     500
+
   log_file_path                           logs
-  $ ./stream_tester
+
+  $ ./OvenStreamTester
