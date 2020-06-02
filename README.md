@@ -29,18 +29,18 @@ We will support the following platforms in the future:
   ```
 
   ### Try it
-```
-$ cd [SOURCE_PATH]/bin
+  ```
+  $ cd [SOURCE_PATH]/bin
 
-[Edit stream_tester.conf File]
-ex)
-signalling_address                      192.168.0.230
-signalling_port                         3333
-signalling_app                          app
-signalling_stream                       abc_o
-streaming_start_count                   10
-streaming_create_interval               10
-streaming_create_count                  10
-streaming_max_count                     5000
-log_file_path                           logs
-$ ./stream_tester
+  [Edit stream_tester.conf File]
+  ex)
+  signalling_address                      192.168.0.230
+  signalling_port                         3333
+  signalling_app                          app
+  signalling_stream                       abc_o
+  streaming_start_count                   10
+  streaming_create_interval               10
+  streaming_create_count                  10
+  streaming_max_count                     5000
+  log_file_path                           logs
+  $ ./stream_tester
