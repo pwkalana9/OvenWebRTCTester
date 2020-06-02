@@ -1,0 +1,1 @@
+time(sec),stream(count),network bitrate(kbps),video framerate(fps avg),audio framerate(fps avg),video latency fail(count),audio latency fail(count),video latency(ms avg),audio latency(ms avg),packet loss(percent)packet loss(count)
